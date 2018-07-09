@@ -1,0 +1,648 @@
+/* My styles */
+
+a
+{
+	color: black;
+
+}
+
+a:hover
+{
+	color: grey;
+}
+
+@font-face
+{
+	font-family: 'Titillium Web';
+	src: url('../fonts/titilliumweb-regular.ttf');
+}
+
+body
+{
+	margin-left: 0px;
+	margin-right: 0px;
+
+	font-family: 'Titillium Web', helvetica, sans-serif;
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+
+.main-logo
+{
+	display: block;
+	position: relative;
+	widows: 150px;
+	height: 100px;
+	left: 50%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	transform: translate(-50%, 0%);
+}
+
+.main-menu-nav
+{
+	background-color: #c0c0c0;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+	height: 40px;
+}
+
+.main-menu-list
+{
+	display: inline-block;
+	position: relative;
+	list-style: none;
+	
+	left: 50%;
+	transform: translate(-50%,0%);
+	margin-top:10px;
+}
+
+.menu-item
+{
+	display: inline-block;
+	padding-right: 35px;
+	color:black;
+
+
+}
+
+.menu-item:hover
+{
+	color:grey;
+}
+
+
+.main-header
+{
+	width: 100%;
+	height: 500px;
+	background-image: url('../imgs/homepage_scroll _image_1.jpg');
+	background-size: 100% 800px;
+	
+}
+
+
+.header-title-box
+{
+	display: block;
+	position: relative;
+	
+	
+	background-color: rgba(21,100,161,0.6);
+	
+	width: 413px;
+	height: 69px;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%,0%);
+
+}
+.header-title-word
+{
+	display: block;
+	position: relative;
+	
+	top:10%;
+	font-size: 38px;
+	font-family: 'Titillium Web', Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	
+}
+
+.section-head
+{
+	display: block;
+	position: relative;
+	width: 500px;
+	height: 400px;
+	left: 50%;
+	transform: translate(-50%,0%);
+
+	color: rgb(21,100,161);
+}
+
+.section-head-content
+{
+	display: block;
+	position: relative;
+	top:20%;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.main-images-container
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 300px;	
+	/* padding-left: 10%; */
+	margin:0px;
+}
+.images-container
+{
+	display: inline-block;
+	position: relative;
+	width: 33%;
+	height: 300px;
+	background-image: url('../imgs/homepage-section3_3.jpg');
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+
+}
+
+.box-image1
+{
+	display: inline-block;
+	position: relative;
+	width: 450px;
+	height: 300px;
+	padding: 0px;
+	margin:0px;
+}
+.box-image2
+{
+	display: inline-block;
+	position: relative;
+	width: 450px;
+	height: 300px;
+	padding: 0px;
+	margin:0px;	
+
+}
+.box-image3
+{
+	display: inline-block;
+	position: relative;
+	width: 440px;
+	height: 300px;
+	padding: 0px;
+	margin:0px;
+}
+
+.testimonial-display-widget
+{
+	display: block;
+	position: relative;
+	width: 500px;
+	left:50%;
+	transform:translate(-50%,0%);
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+
+}
+.testimonial-header
+{
+	color: rgb(21,100,161);
+	font-weight: bold;
+	margin-bottom: 80px
+}
+
+.testimonial-footer
+{
+	margin-top: 20px;
+	color: rgb(21,100,161);	
+	font-weight: bold;
+}
+
+
+
+.footer-homepage
+{
+	display: block;
+	position: relative;
+	background: url('../imgs/footer.jpg') no-repeat center center fixed;
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+
+}
+
+.footer-links
+{
+	display: block;
+	position: relative;
+	left:5%;
+	bottom: -70%;
+}
+.footer-links a
+{
+	display: inline-block;
+	position: relative;
+	
+	color:white;
+
+}
+.footer-links a:hover
+{
+	color: #c0c0c0;
+}
+
+.footer-text
+{
+	color:white;	
+	font-weight: bold;
+	margin-top:10px;
+}
+.social-links
+{
+	display: inline-block;
+	position: relative;
+	width: 100vw;
+	text-align: right;
+	right:16vw;
+	bottom: 30px;
+	color:white;
+	font-weight: bold;
+	
+}
+
+
+
+/*about-us page*/
+.about-us-header
+{
+	width: 100%;
+	height: 500px;
+	background-image: url('../imgs/about-us-header.jpg');
+	background-size: 100% 800px;
+}
+
+.round-img
+{
+	display: inline-block;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	top:-22px;
+	left:130px;
+
+
+}
+.person-image-description
+{
+	display: inline-block;
+	position: relative;
+	width: 600px;
+	top:60px;
+	left:208px;
+}
+
+.person-image-description h3
+{
+	color: rgb(21,100,161);
+	font-weight: bold;
+}
+
+.person-image-description p
+{
+	color: rgb(21,100,161);
+	
+}
+
+/*services page*/
+
+.services-header
+{
+	width: 100%;
+	height: 500px;
+	background-image: url('../imgs/services-header.jpg');
+	background-size: 100% 800px;
+	background-position: 0px -150px;
+
+}
+
+.services-section2
+{
+	background-color:  rgb(21,100,161);
+}
+
+.services-section2-text
+{
+	color: white;
+}
+
+.services-section-head
+{
+	display: block;
+	position: relative;
+	width: 500px;
+	height: 400px;
+	left: 29%;
+
+	color: white;
+}
+
+.services-section-head-content
+{
+	display: block;
+	position: relative;
+	top:20%;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.blue-text
+{
+	color:rgb(21,100,161);
+}
+
+.make-text-bold
+{
+	font-weight: bold;
+}
+
+.justify-text
+{
+	text-align: justify;
+}
+
+
+/*Resource link page*/
+
+
+.resource-link-header
+{
+	width: 100%;
+	height: 500px;
+	background-image: url('../imgs/resource-link-header.jpg');
+	background-size: 100% 100%;
+
+}
+
+/*contact us header*/
+
+.contactus-header
+{
+	width: 100%;
+	height: 500px;
+	background-image: url('../imgs/contactus-header.jpg');
+	background-size: 100% 600px;	
+	background-position: 0px -50px;				
+	font-family: 'Titillium Web', Helvetica, sans-serif;
+}
+
+
+.contactus-section
+{
+	display: block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0%);
+	width: 500px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid rgb(21,100,161);
+
+
+}
+.contactus-address
+{
+	display: block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0%);
+	width: 500px;
+	padding-top: 30px;
+}
+.contactus-address p
+{
+	text-align: center;
+	color:rgb(21,100,161);
+	font-size: 18px;
+}
+
+
+.contactus-section form span
+{
+	display: block;
+}
+.contactus-section form span p , .contactus-section form span input, .contactus-section form span textarea
+{
+	display: inline-block;
+	width: 200px;
+}
+
+.contactus-section form span p
+{
+	text-align: right;
+	width: 150px;
+	color:rgb(21,100,161);
+}
+.contactus-section form span input
+{
+	position: relative;
+	left:50px;
+
+	background-color: #eeeeee;
+	border: 0px solid;
+	border-color: white;
+	box-shadow: none;
+	-webkit-box-shadow:none;
+}
+
+.contactus-section form span textarea
+{
+	position: relative;
+	left:54px;
+	background-color: #eeeeee;
+	
+	border: 0px solid;
+	border-color: white;
+	box-shadow: none;
+	-webkit-box-shadow:none;
+}
+
+
+#contact-submit-btn
+{
+	display: block;
+	position: relative;
+	top:20px;
+	left:335px;
+	
+	background-color: #0963a1;
+	border: 0px solid;
+	border-color: white;
+	box-shadow: none;
+	-webkit-box-shadow:none;
+	color: white;
+	padding:5px 12px;
+	
+
+}
+
+/*homepage imgs*/
+.three-images-container
+{
+	
+	
+	height: 300px;
+	width: 110%;
+	overflow: hidden;
+
+}
+
+.home-img
+{
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+#img1
+{
+	width: 451px;
+	height: 450px;
+}
+#img2
+{
+	width: 450px;
+	height: 450px;
+}
+
+
+#img3
+{
+	width:250px;
+	height: 250px;
+}
+
+
+#home-img1
+{
+	display: inline-block;
+	position: relative;
+	width: 450px;
+	height: 400px;
+	background-image: url('../imgs/homepage-sectionimage1v1.jpg');
+	z-index:5;
+}
+#home-img2
+{
+	display: inline-block;
+	position: relative;
+	width: 455px;
+	height: 400px;
+	background-image: url('../imgs/homepage-sectionimage2v1.jpg');
+	left: -15px;
+	z-index:5;
+}
+#home-img3
+{
+	display: inline-block;
+	position: relative;
+	width: 455px;
+	left:-19px;
+	height: 400px;
+	background-image: url('../imgs/homepage-sectionimage3v1.jpg');
+	z-index:5;
+	
+}
+.imgbox-title-word
+{
+	display: block;
+	position: absolute;
+	top:30%;
+	height:40px;
+	padding-top:8px;
+	width:440px;
+	z-index: 10;
+	padding:0px 0px;
+	margin:0px;
+	background-color:rgba(21,100,161,0.6);
+	color:rgba(255,255,255,0.7);
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+.imgbox-title-word p
+{
+	display: block;
+	position: absolute;
+	left:20%;
+	top:4px;
+}
+#imgbox2
+{
+	width: 455px;
+}
+#imgbox2 p
+{
+	display: block;
+	position: absolute;
+	left:25%;
+	top:4px;	
+}
+
+
+#homepage-section2
+{
+	background-image: url('../imgs/bkc-watermark-pale2.png');
+	background-repeat: no-repeat;
+	background-position: 190px -120px;
+}
+
+#about-us-section
+{
+	background-image: url('../imgs/bkc-watermark-pale2.png');
+	background-repeat: no-repeat;
+	background-position: 180px 0px;	
+}
+
+#contactus-section
+{
+	background-image: url('../imgs/bkc-watermark-pale2.png');
+	background-repeat: no-repeat;
+	background-position: 920px -50px;		
+	width:100%;
+}
+
+#services-section
+{
+	width:100%;
+	height:100%;
+	padding:80px 200px;
+	background-image: url('../imgs/bkc-watermark-pale2.png');
+	background-repeat: no-repeat;
+	background-position: 920px 40px;		
+}
+
+#resource-link-section
+{
+	width:100%;
+	
+	 padding:0px 200px; 
+	background-image: url('../imgs/bkc-watermark-pale2.png');
+	background-repeat: no-repeat;
+	background-position: 920px 0px;			
+}
+
+#testimonials-section
+{
+	width:100%;
+	
+	padding:0px 200px; 
+	background-image: url('../imgs/bkc-watermark-pale2.png');
+	background-repeat: no-repeat;
+	background-position: 920px -150px;				
+}
+
+
+
+
