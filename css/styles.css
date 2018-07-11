@@ -189,13 +189,13 @@ body
 {
 	display: block;
 	position: relative;
-	background: url('../imgs/footer.jpg') no-repeat center center fixed;
+	background-image: url('../imgs/footer.jpg');
 	width: 100%;
 	height: 300px;
-	background-size: cover;
- 	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
 
 }
 
@@ -651,7 +651,7 @@ body
 	color:black;
 	position: relative;
 	top:-9px;
-
+	font-family: 'Tittilium Web', helvetica, sans-serif;
 }
 
 .menu-item:hover
@@ -723,3 +723,29 @@ body
 	padding-top: 13px;
 	background-color: rgb(21,100,161);		
 }
+
+
+
+/*testimonials widget*/
+
+
+#testimonial-prev-button
+{
+	display: inline-block;
+	position: absolute;
+	font-size:65px;
+	left:-15%;
+	top:42%;
+}
+
+
+#testimonial-next-button
+{
+	display: inline-block;
+	position: absolute;
+	font-size:65px;
+	left:109%;
+	top:42%;
+}
+
+
