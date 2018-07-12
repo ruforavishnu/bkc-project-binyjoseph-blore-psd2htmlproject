@@ -137,3 +137,9 @@ html[xmlns] .slides { display: block; }
     text-align: center;
     text-transform: uppercase;
 }
+
+
+.services-padding-control
+{
+     padding-right:95px; 
+}

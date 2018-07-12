@@ -594,7 +594,7 @@ body
 {
 	width:100%;
 	height:100%;
-	padding:80px 200px;
+	padding:80px 120px;
 	background-image: url('../imgs/bkc-watermark-pale2.png');
 	background-repeat: no-repeat;
 	background-position: 920px 40px;		
@@ -783,4 +783,25 @@ body
 .resource-section-left-column
 {
 	left:10%;
+}
+
+
+.col-md-6
+{
+	padding-right:60px;
+	padding-left:45px;
+}
+
+
+#services-col1
+{
+	padding-right: 40px;
+	padding-left: 80px;
+}
+
+
+#services-col2
+{
+	padding-right: 80px;
+	padding-left: 40px;	
 }
