@@ -78,12 +78,9 @@
 			showPreviousTestimonial();
 		});
 		
+		
 
-
-		$(".testimonial-header").click(function()
-		{
-			showNextTestimonial();
-		});
+		
 	});
 
 //every 5 seconds a function should be called

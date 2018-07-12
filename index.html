@@ -11,7 +11,11 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">  
-	
+
+
+ <link rel="stylesheet" href="css/slider.css" type="text/css">
+ 
+
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -33,14 +37,55 @@
 					<a href="contact-us.html"><li class="menu-item">Contact Us</li></a>
 				</ul>
 			</nav>
-			<div class="main-header">
-				<div class="header-title-box">
-					<span class="header-title-word">Consulting</span>	
-				</div>
-				
-			</div>
-			
 	</div>
+
+
+<div class="flex-container">
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+				<div class="slider-header-title-box">
+					<span class="slider-header-title-word">Consulting</span>	
+				</div>
+                <img src="imgs/BKC4.jpg" />
+            </li>
+             
+            <li>
+            	<div class="slider-header-title-box">
+					<span class="slider-header-title-word">Bio Pharmaceuticals</span>	
+				</div>
+                <img src="imgs/BKC1.jpg" />
+            </li>
+             
+            <li>
+            	<div class="slider-header-title-box">
+					<span class="slider-header-title-word">Executive Coaching</span>	
+				</div>
+                <img src="imgs/BKC3.jpg" />
+                
+            </li>
+            <li>
+            	<div class="slider-header-title-box">
+					<span class="slider-header-title-word">Regulations</span>	
+				</div>
+				<img src="imgs/BKC2.jpg" />
+                
+                
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+<!-- 			<div class="main-header">
+	<div class="header-title-box">
+		<span class="header-title-word">Consulting</span>	
+	</div>
+	
+</div> -->
+			
+	
 	<div id="homepage-section2" class="container">
 		<div class="col-md-12">
 			<div class="section-head">
@@ -116,7 +161,6 @@
 
 	
 
-	
 
 
 <script
@@ -129,5 +173,18 @@
   crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
+
+
+ <script src="js/jquery.flexslider-min.js"></script>
+ 
+<script>
+$(document).ready(function () {
+    $('.flexslider').flexslider({
+        animation: 'fade',
+        controlsContainer: '.flexslider'
+    });
+});
+</script>
+
 </body>
 </html>
