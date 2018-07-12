@@ -319,10 +319,12 @@ body
 {
 	display: block;
 	position: relative;
-	top:20%;
+	top:50%;
+	left:60%;
 	font-size: 22px;
 	/*font-weight: bold;*/
 	text-align: center;
+	transform: translate(-50%,-50%);
 	
 }
 
