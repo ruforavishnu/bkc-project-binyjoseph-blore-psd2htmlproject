@@ -770,3 +770,15 @@ body
 {
 	margin-bottom: 60px;
 }
+/* 
+#res-test ol a 
+{
+	color:red;
+	text-align: justify;
+} */
+
+
+.resource-section-left-column
+{
+	left:10%;
+}
