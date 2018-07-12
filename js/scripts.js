@@ -20,10 +20,12 @@
 		 var $testimonials_footer =
 		 [
 		 	"P.S.Ramesh Prakash, General Manager, Ibn Sina Pharmacy LLC, Sultanate of Oman",
-		 	"Mr. Piyush V.Desai and team, Director-Operations, M/sSovereign Pharma Pvt. Ltd., Nani Daman, India",
+		 	"Mr. Piyush V. Desai and team, Director-Operations, M/sSovereign Pharma Pvt. Ltd., Nani Daman, India",
 		 	"Dr. Salim Shah, President Sarfez Pharmaceuticals, Vienna, USA",
 		 	"Rajashri Mokashi, Chief Operating Officer, Stemade Biotech Pvt. Ltd, Mumbai"
 		 ];
+
+		 //MS Soverigne Pharma pvt ltd. in one lin
 
 		 function showNextTestimonial()
 		 {
@@ -78,7 +80,7 @@
 			showPreviousTestimonial();
 		});
 		
-		
+
 
 		
 	});
