@@ -578,6 +578,7 @@ body
 	background-image: url('../imgs/bkc-watermark-pale2.png');
 	background-repeat: no-repeat;
 	background-position: 49% -120px;
+	background-attachment: fixed;
 }
 
 #about-us-section
@@ -838,7 +839,7 @@ body
 background-color: #285882;
 color: #ffffff  ;
 padding-top: 13px;
-padding-bottom: 15px;
+padding-bottom: 16px;
 padding-left: 15px;
 padding-right: 15px;
 
