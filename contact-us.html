@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">  
+
+	<link rel="stylesheet" href="css/animate.min.css" type="text/css">
 	
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -42,10 +44,11 @@
 			
 	</div>
 
-<div class="container"  id="contactus-section">
-		<div class="col-md-12" style="margin-top: 100px;margin-bottom: 100px;">
+<div class="container "  id="contactus-section">
+
+		<div class="col-md-12 wow slideInLeft" style="margin-top: 100px;margin-bottom: 100px;">
 			
-			<div class="contactus-section">
+			<div class="contactus-section ">
 				<form action="mail.php" method="POST">
 					<span><p>Name</p> <input type="text" name="name"></span>
 					<span><p>Email address</p> <input type="text" name="email"></span>
@@ -100,5 +103,11 @@
   crossorigin="anonymous"></script>
 
   <script src="js/scripts.js"></script>
+
+   <script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
 </body>
 </html>

@@ -16,6 +16,7 @@
  <link rel="stylesheet" href="css/slider.css" type="text/css">
  <link rel="stylesheet" href="css/animate.min.css" type="text/css">
  
+	
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -46,7 +47,7 @@
         <ul class="slides">
             <li >
 				
-				<div class="slider-header-title-box  ">
+				<div class="slider-header-title-box  " id="home-header1">
 					<span class="slider-header-title-word">Consulting</span>	
 				</div>
 				
@@ -92,7 +93,7 @@
 	<div id="homepage-section2" class="container">
 		<div class="col-md-12">
 			<div class="section-head">
-				<p class="section-head-content ">
+				<p class="section-head-content " id="home-section-head1">
 	BKC offers services in consulting, auditing, training and executive coaching for pharmaceuticals, biopharmaceuticals and CROs in quality, compliance, regulations, operations and facility building,and engineering project management.
 				</p>
 			</div>
@@ -123,7 +124,7 @@
 		<div class="col-md-12">
 			
 
-			<div class="testimonial-display-widget">
+			<div class="testimonial-display-widget ">
 					<h3 class="testimonial-header" >Testimonials</h3>
 
 
@@ -181,13 +182,22 @@
  <script src="js/jquery.flexslider-min.js"></script>
  
 <script>
-$(document).ready(function () {
+$(document).ready(function () 
+{
     $('.flexslider').flexslider({
         animation: 'fade',
         controlsContainer: '.flexslider'
     });
+
+    
+    
 });
 </script>
+
+ <script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 
 </body>
 </html>
