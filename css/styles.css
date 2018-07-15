@@ -809,6 +809,7 @@ body
 {
 	width:120px;
 	height:49px;
+	text-align: center;
 	padding-top: 13px;
 	background-color: rgb(21,100,161);		
 }
@@ -845,4 +846,10 @@ padding-left: 15px;
 padding-right: 15px;
 
 margin: 0px 0px;
+}
+
+
+.social-links
+{
+	cursor: pointer;
 }
