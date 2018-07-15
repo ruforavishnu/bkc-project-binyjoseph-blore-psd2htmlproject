@@ -755,10 +755,10 @@ body
 	position: relative;
 	text-align: center;
 	top:-9px;
-	width: 80px;
+	width: 130px;
 	height: 49px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
 	padding-top:13px;
 	color:black;
 	background-color: rgb(21,100,161);
@@ -771,10 +771,10 @@ body
 	position: relative;
 	text-align: center;
 	top:-9px;
-	width: 90px;
+	width: 130px;
 	height: 49px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
  	padding-top:13px; 
 	color:black;
 	background-color: rgb(21,100,161);
@@ -783,8 +783,10 @@ body
 
 #services-nav #services-menu-item
 {
-	width:90px;
+	width:130px;
 	height:49px;
+	padding-right: 5px;
+	padding-left: 5px;
 	padding-top:13px;
 	background-color: rgb(21,100,161);
 }
@@ -794,23 +796,30 @@ body
 	width:130px;
 	height:49px;
 	padding-top: 13px;
+	padding-right: 5px;
+	padding-left: 5px;
 	background-color: rgb(21,100,161);
 }
 
 #testimonials-menu-item
 {
-	width:120px;
+	width:130px;
 	height:49px;
 	padding-top: 13px;
+	padding-right: 5px;
+	padding-left: 5px;
 	background-color: rgb(21,100,161);	
 }
 
 #contactus-menu-item
 {
-	width:120px;
+	width:130px;
 	height:49px;
 	text-align: center;
+	
 	padding-top: 13px;
+	padding-right: 5px;
+	padding-left: 5px;
 	background-color: rgb(21,100,161);		
 }
 
@@ -824,10 +833,10 @@ body
 	color: black;
 	
 	text-decoration: none;
-	
-
-	padding-left: 15px;
-	padding-right: 15px;
+	text-align: center;
+	width:130px;
+	padding-left: 5px;
+	padding-right: 5px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	margin: 0px 0px; 
