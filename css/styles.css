@@ -1461,4 +1461,66 @@ margin: 0px 0px;
 	text-align: left;
 }
 
+.services-header
+{
+	width: 100%;
+	height: 400px;
+	background-image: url('../imgs/services-header.jpg');
+	background-size: 100% 800px;
+	background-position: 0px -150px;
+
+}
+
+.services-section2
+{
+	background-color:  rgb(21,100,161);
+}
+
+.services-section2-text
+{
+	color: white;
+}
+
+.services-section-head
+{
+	display: block;
+	position: relative;
+	width: 500px;
+	height: 400px;
+	left: 29%;
+
+	color: white;
+}
+
+.services-section-head-content
+{
+	display: block;
+	position: relative;
+	top:50%;
+	left:50%;
+	font-size: 22px;
+	/*font-weight: bold;*/
+	text-align: center;
+	transform: translate(-60%,-50%);
+	
+}
+#services-col1 , #services-col2 
+{
+
+	color:rgb(21,100,161);
+	margin-bottom:50px;
+
+}
+
+#services-col1 h3, #services-col2 h3
+{
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+
+
+
 }/* end of breakpoint min-width = 960px*/
