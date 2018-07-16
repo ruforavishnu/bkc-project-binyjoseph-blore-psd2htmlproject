@@ -587,12 +587,20 @@ body
 	background-position: 49% -120px;
 	background-attachment: fixed;
 }
+.about-container
+{
+
+	margin-top: 100px;
+	background-image: url('../imgs/bkc-watermark-pale2.png');
+	background-repeat: no-repeat;
+	background-position: 295px 0px;	
+	
+}
 
 #about-us-section
 {
-	background-image: url('../imgs/bkc-watermark-pale2.png');
-	background-repeat: no-repeat;
-	background-position: 180px 0px;	
+	margin-left:100px;
+
 }
 
 #contactus-section
@@ -917,7 +925,7 @@ margin: 0px 0px;
 }/*breakpoint of screen size- min-width = 1200px*/
 
 
-@media only screen and (min-width: 960px)
+@media only screen and (min-width: 960px) and (max-width: 1199px)
 {
 
 a
@@ -1367,6 +1375,7 @@ margin: 0px 0px;
 .social-links
 {
 	display: inline-block;
+
 	position: relative;
 	width: 100vw;
 	text-align: right;
@@ -1377,6 +1386,79 @@ margin: 0px 0px;
 	
 }
 
+/*about-us page*/
+.about-us-header
+{
+	width: 100%;
+	height: 400px;
+	background-image: url('../imgs/about-us-header.jpg');
+	background-size: 100% 600px;
+}
 
+.about-container
+{
+
+	margin-top: 100px;
+	background-image: url('../imgs/bkc-watermark-pale2.png');
+	background-repeat: no-repeat;
+	background-position: 180px 0px;	
+	
+}
+
+
+#about-us-section
+{
+
+}
+
+
+.person-section
+{
+	position: relative;
+	
+	margin-left:100px;
+	padding-top: 120px
+
+}
+
+.round-img
+{
+	display: inline-block;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	top:0px;
+	left:50%;
+	transform:translate(-50%,0);
+
+
+}
+
+
+
+.person-image-description
+{
+	display: block;
+	position: relative;
+	width: 600px;
+	top:0px;
+	left:50%;
+	transform: translate(-50%,0);
+	
+}
+
+
+.person-image-description h3
+{
+	color: rgb(21,100,161);
+	font-weight: bold;
+	text-align: center;
+}
+
+.person-image-description p
+{
+	color: rgb(21,100,161);
+	text-align: left;
+}
 
 }/* end of breakpoint min-width = 960px*/
