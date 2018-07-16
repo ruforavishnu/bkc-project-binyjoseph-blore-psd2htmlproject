@@ -234,7 +234,7 @@ body
 	width: 100vw;
 	text-align: right;
 	right:16vw;
-	bottom: 30px;
+	bottom: 230px;
 	color:white;
 	font-weight: bold;
 	
@@ -424,12 +424,14 @@ body
 {
 	position: relative;
 	left:50px;
-
+	width:270px;
 	background-color: #eeeeee;
 	border: 0px solid;
 	border-color: white;
 	box-shadow: none;
 	-webkit-box-shadow:none;
+	height:40px;
+	margin-bottom: 10px;
 }
 
 .contactus-section form span textarea
@@ -437,7 +439,7 @@ body
 	position: relative;
 	left:54px;
 	background-color: #eeeeee;
-	
+	width:270px;
 	border: 0px solid;
 	border-color: white;
 	box-shadow: none;
@@ -459,7 +461,7 @@ body
 	-webkit-box-shadow:none;
 	color: white;
 	padding:5px 12px;
-	
+	width:138px;
 
 }
 
@@ -816,7 +818,7 @@ body
 	width:130px;
 	height:49px;
 	text-align: center;
-	
+
 	padding-top: 13px;
 	padding-right: 5px;
 	padding-left: 5px;
