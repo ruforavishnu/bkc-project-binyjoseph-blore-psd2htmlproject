@@ -17,31 +17,52 @@ a:hover
 	src: url('../fonts/titilliumweb-regular.ttf');
 }
 
+html
+{
+	margin:0px;
+	padding:0px;
+}
 body
 {
+	position: relative;
 	margin-left: 0px;
 	margin-right: 0px;
 
 	font-family: 'Titillium Web', helvetica, sans-serif;
-	width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; 
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0px;
+	overflow-x:0;
+	
+    
+
+    
 }
 
+
+ 
 
 .main-logo
 {
 	display: block;
 	position: relative;
-	widows: 150px;
+	
 	height: 100px;
 	left: 50%;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	transform: translate(-50%, 0%);
 }
+
+
+
+
+
+/* 
+@media only screen and (min-width: 1224px) 
+{
+ */
 
 
 .main-header
@@ -52,6 +73,7 @@ body
 	background-size: 100% 800px;
 	
 }
+
 
 
 .header-title-box
@@ -865,8 +887,6 @@ margin: 0px 0px;
 	cursor: pointer;
 }
 
-
-
 .flex-row
 {
 	display: flex;
@@ -909,3 +929,27 @@ margin: 0px 0px;
 	font-size: 90%;
 	
 }
+/* 
+}end of media query min-width = 1224px
+
+Tablet screen size
+
+@media only screen and (min-width: 960px) 
+{
+
+	
+.main-logo
+{
+	display: block;
+	position: relative;
+	widows: 150px;
+	height: 100px;
+	left: 50%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	transform: translate(-50%, 0%);
+}
+
+
+    
+} */

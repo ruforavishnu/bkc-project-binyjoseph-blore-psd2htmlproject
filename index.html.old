@@ -24,8 +24,7 @@
 </head>
 
 <body >
-	<div class="header">
-		
+			
 			<a href="index.html">
 				<img class="main-logo" src="imgs/main_logo.png" alt="">
 			</a>
@@ -39,7 +38,7 @@
 					<a href="contact-us.html"><li class="menu-item">Contact Us</li></a>
 				</ul>
 			</nav>
-	</div>
+	
 
 
 <div class="flex-container">
@@ -91,17 +90,18 @@
 			
 	
 	<div id="homepage-section2" class="container">
-		<div class="col-md-12">
-			<div class="section-head">
-				<p class="section-head-content " id="home-section-head1">
-	BKC offers services in consulting, auditing, training and executive coaching for pharmaceuticals, biopharmaceuticals and CROs in quality, compliance, regulations, operations and facility building,and engineering project management.
-				</p>
+		
+			<div class="col-md-12">
+				<div class="section-head">
+					<p class="section-head-content " id="home-section-head1">
+		BKC offers services in consulting, auditing, training and executive coaching for pharmaceuticals, biopharmaceuticals and CROs in quality, compliance, regulations, operations and facility building,and engineering project management.
+					</p>
+				</div>
+				
 			</div>
-			
-		</div>
+		
 	</div>
-
-
+	
 	<div class="flex-row">
 		<div class="flex-column">
 			<img src="imgs/homepage-sectionimage1v2.jpg" alt="">
@@ -124,8 +124,27 @@
 	</div>
 
 
+<!--	<div class="three-images-container">
+		<div id="home-img1">
+			
+			<span class="imgbox-title-word">
+				<p>PHARMACEUTICALS</p>
+			</span>	
+			
+		</div>
+		<div id="home-img2">
+			<span id="imgbox2" class="imgbox-title-word">
+				<p id="biopharma">BIO PHARMACEUTICALS</p>
+			</span>	
+		</div>
+		<div id="home-img3">
+			<span id="imgbox2" class="imgbox-title-word">
+				<p>LIFE SCIENCES</p>
+			</span>	
+		</div>
+	</div>
 
-
+	-->
 	<div class="container">
 		<div class="col-md-12">
 			
