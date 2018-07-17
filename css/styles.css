@@ -1660,9 +1660,8 @@ body
 }/* end of breakpoint min-width = 960px and max-width:1199px*/
 
 
-@media only screen and (min-width: 760px) and (max-width: 959px)
+@media only screen and (min-width: 700px) and (max-width: 959px)
 {
-
 a
 {
 	color: black;
@@ -1716,173 +1715,280 @@ body
 	
 }
 
+
+.header-title-box
+{
+	display: block;
+	position: relative;
+	
+	
+	background-color: rgba(21,100,161,0.6);
+	
+	width: 413px;
+	height: 69px;
+	left: 51%;
+
+	top: 40%;
+	transform: translate(-50%,0%);
+
+}
+.header-title-word
+{
+	display: block;
+	position: relative;
+	
+	top:10%;
+	font-size: 38px;
+	font-family: 'Titillium Web', Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+
+
+
 .main-menu-nav
 {
-	background-color: #c0c0c0;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	width: 100%;
-	height: 50px;
-}
 
-.main-menu-list
-{
-	display: inline-block;
-	position: relative;
-	list-style: none;
-	
-	left: 50%;
-	transform: translate(-50%,0%);
-	margin-top:10px;
-}
-
-.menu-item
-{
-	display: inline-block;
-	padding-right: 15px;
-	padding-left: 15px;
-	color:black;
-	position: relative;
-	top:-9px;
-	font-family: 'Tittilium Web', helvetica, sans-serif;
-}
-
-.menu-item:hover
-{
-	color:grey;
-}
-
-
-#homepage-nav #homepage-menu-item
-{
-	position: relative;
-	text-align: center;
-	top:-9px;
-	width: 130px;
-	height: 49px;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-top:13px;
-	color:black;
-	background-color: rgb(21,100,161);
-
-}
-
-#aboutuspage-menu-item
-{
-	position: relative;
-	text-align: center;
-	top:-9px;
-	width: 130px;
-	height: 49px;
-	padding-right: 5px;
-	padding-left: 5px;
- 	padding-top:13px; 
-	color:black;
-	background-color: rgb(21,100,161);
-}
-
-
-#services-nav #services-menu-item
-{
-	width:130px;
-	height:49px;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-top:13px;
-	background-color: rgb(21,100,161);
-}
-
-#resourcelink-menu-item
-{
-	width:130px;
-	height:49px;
-	padding-top: 13px;
-	padding-right: 5px;
-	padding-left: 5px;
-	background-color: rgb(21,100,161);
-}
-
-#testimonials-menu-item
-{
-	width:130px;
-	height:49px;
-	padding-top: 13px;
-	padding-right: 5px;
-	padding-left: 5px;
-	background-color: rgb(21,100,161);	
-}
-
-#contactus-menu-item
-{
-	width:130px;
-	height:49px;
-	text-align: center;
-
-	padding-top: 13px;
-	padding-right: 5px;
-	padding-left: 5px;
-	background-color: rgb(21,100,161);		
-}
-
-
-
-
-/*animations*/
-
-.menu-item
-{
-	transition: 0.4s;
-	color: black;
-	
-	text-decoration: none;
-	text-align: center;
-	width:130px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	margin: 0px 0px; 
-}
-
-.menu-item:hover 
-{
-	position: relative;
-	top:-9px;	
-	
-	background-color: #285882;
-	color: #ffffff  ;
-	padding-top: 13px;
-	padding-bottom: 16px;
-	padding-left: 15px;
-	padding-right: 15px;
-
-	margin: 0px 0px;
-}
-
-
-.collapse-navbar
-{
 	display: none;
 }
 
-.collapsed-navbar ul li
+
+#homepage-section2
 {
-	
-	list-style: none;
-	
-	width:35px;
-	height:5px;
-	background-color: black;
-	margin: 6px 0;
+	display: block;
+	position: relative;
+	background-image: url('../imgs/bkc-watermark-pale2.png');
+	background-repeat: no-repeat;
+	background-position: 49% -120px;
+	background-attachment: fixed;
 }
-.collapsed-navbar ul
+
+
+.section-head
 {
-	cursor: pointer;
+	display: block;
+	position: relative;
+	width: 500px;
+	height: 400px;
+	left: 50%;
+	transform: translate(-50%,0%);
+
+	color: rgb(21,100,161);
+}
+
+.section-head-content
+{
+	display: block;
+	position: relative;
+	top:50%;
+	transform:translate(0%, -50%);
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+
+.flex-row
+{
+	display: flex;
+}
+
+.flex-column
+{
+	flex:33.33%;
+	padding:0px;
+	position: relative;
+}
+
+.flex-column img
+{
+	width: 100%;
+}
+
+.imgbox-title-word
+{
+	display: block;
+	position: absolute;
+	top:30%;
+	height:40px;
+	padding-top:8px;
+	width:440px;
+	z-index: 10;
+	padding:0px 0px;
+	margin:0px;
+	background-color:rgba(21,100,161,0.6);
+	color:rgba(255,255,255,0.7);
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+.imgbox-title-word p
+{
+	display: block;
+	position: absolute;
+	left:20%;
+	top:50%;
+	transform: translate(0%,-50%);
+	font-size: 14px;
+}
+
+#home-blue-box1, #home-blue-box2, #home-blue-box3
+{
 	display: inline-block;
-
+	position: absolute;
+	width:100%;
+	height:50px;
+	background-color:rgba(21,100,161,0.6);
+	z-index: 11;
+	top:50%;
+	transform: translate(0%,-50%);
+	
 
 }
 
-}/*end of breakpoint min-width=760px and max-width:959px*/
 
+
+.testimonial-display-widget
+{
+	display: block;
+	position: relative;
+	width: 500px;
+	left:50%;
+	transform:translate(-50%,0%);
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+
+}
+.testimonial-header
+{
+	color: rgb(21,100,161);
+	font-weight: bold;
+	margin-bottom: 50px
+}
+
+.testimonial-footer
+{
+	margin-top: 20px;
+	color: rgb(21,100,161);	
+	font-weight: bold;
+}
+
+
+
+
+#testimonial-prev-button
+{
+	display: inline-block;
+	position: absolute;
+	font-size:65px;
+	left:-15%;
+	top:42%;
+}
+
+
+#testimonial-next-button
+{
+	display: inline-block;
+	position: absolute;
+	font-size:65px;
+	left:109%;
+	top:42%;
+}
+
+
+
+.footer-homepage
+{
+	display: block;
+	position: relative;
+	background-image: url('../imgs/footer.jpg');
+	width: 100%;
+	height: 300px;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+
+}
+
+.footer-links
+{
+	display: block;
+	position: relative;
+	left:5%;
+	bottom: -70%;
+}
+.footer-links a
+{
+	display: inline-block;
+	position: relative;
+	
+	color:white;
+
+}
+.footer-links a:hover
+{
+	color: #c0c0c0;
+}
+
+.footer-text
+{
+	color:white;	
+	font-weight: bold;
+	margin-top:10px;
+}
+.social-links
+{
+	display: inline-block;
+	position: relative;
+	width: 100vw;
+	text-align: right;
+	right:16vw;
+	bottom: 230px;
+	color:white;
+	font-weight: bold;
+	
+}
+
+
+
+
+}/*end of 700px*/
+
+
+/*common css styles*/
+.slider-header-title-box
+{
+    display: block;
+    position: absolute;
+    
+    
+    background-color: rgba(21,100,161,0.6);
+    
+    width: 413px;
+    height: 69px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.slider-header-title-word
+{
+	display: block;
+	position: relative;
+	
+	top:10%;
+	font-size: 38px;
+	font-family: 'Titillium Web', Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+/*end of common css styles*/

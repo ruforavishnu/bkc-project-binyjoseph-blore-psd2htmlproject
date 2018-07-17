@@ -1,10 +1,54 @@
 
 
+var $totalImages = 4;
+var $imageIndex = 0;
+
+var $imageUrlsArray = [
+				'imgs/BKC4.jpg',
+				'imgs/BKC1.jpg',
+				'imgs/BKC3.jpg',
+				'imgs/BKC2.jpg'
+];
+
+
+var $imageHeadingsArray = [
+		"Consulting",
+		"BIO Pharmaceuticals",
+		"Executive Coaching",
+		"Regulations"
+];
+
+
+function runSlideShow()
+{
+	console.log('run slideshow invoked');
+
+	setInterval(changeSlide,3000);
+}
+
+function changeSlide()
+{
+	$imageIndex++;
+	if($imageIndex % $totalImages == 0)
+	{
+		$imageIndex = 0;
+	}
+	//console.log('change slide fn invoked, imageIndex:'+$imageIndex+', imageUrls value:'+$imageUrlsArray[$imageIndex]);
+	
+	$str = "url('"+ $imageUrlsArray[$imageIndex] +"')";
+	//console.log($str);
+	
+	$('.slider-display-widget').css("background-image", $str);
+	$('.slider-header-title-word').text($imageHeadingsArray[$imageIndex]);
+
+}
 
 
 
 	$(document).ready(function()
 	{
+
+		runSlideShow();
 
 		
 		var $total_testimonials = 5;
