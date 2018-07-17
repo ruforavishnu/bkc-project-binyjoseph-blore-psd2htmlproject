@@ -2213,6 +2213,250 @@ body
 
 }/*end of 700px*/
 
+@media only screen and (min-width: 300px) and (max-width: 699px)
+{
+	a
+{
+	color: black;
+
+}
+
+a:hover
+{
+	color: grey;
+}
+
+@font-face
+{
+	font-family: 'Titillium Web';
+	src: url('../fonts/titilliumweb-regular.ttf');
+}
+
+body
+{
+	margin-left: 0px;
+	margin-right: 0px;
+
+	font-family: 'Titillium Web', helvetica, sans-serif;
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+
+.main-logo
+{
+	display: block;
+	position: relative;
+	width: 250px;
+	height: 60px;
+	left: 50%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	transform: translate(-50%, 0%);
+}
+	.main-menu-nav
+	{
+		display: none;
+	}
+
+	#homepage-section2
+	{
+		display: block;
+		position: relative;
+		background-image: url('../imgs/bkc-watermark-pale2.png');
+		background-repeat: no-repeat;
+		background-position: 49% -120px;
+		background-attachment: fixed;
+
+	}
+
+	.section-head
+	{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 200px;
+		left: 50%;
+		transform: translate(-50%,0%);
+
+		color: rgb(21,100,161);
+	}	
+	.section-head-content
+	{
+		display: block;
+		position: relative;
+		top:50%;
+		transform:translate(0%, -50%);
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
+
+	}
+	.flex-row
+	{
+		display: flex;
+	}
+
+	.flex-column
+	{
+		flex:33.33%;
+		padding:0px;
+		position: relative;
+	}
+
+	.flex-column img
+	{
+		width: 100%;
+	}
+	.imgbox-title-word
+	{
+		display: block;
+		position: absolute;
+		top:30%;
+		height:40px;
+		padding-top:8px;
+		width:440px;
+		z-index: 10;
+		padding:0px 0px;
+		margin:0px;
+		background-color:rgba(21,100,161,0.6);
+		color:rgba(255,255,255,0.7);
+		font-size: 24px;
+		text-align: center;
+		vertical-align: middle;
+	}
+.imgbox-title-word p
+{
+	display: block;
+	position: absolute;
+	font-size: 8px;
+	left:20%;
+	top:4px;
+}
+
+#home-blue-box1, #home-blue-box2, #home-blue-box3
+{
+	display: inline-block;
+	position: absolute;
+	width:100%;
+	height:20px;
+	background-color:rgba(21,100,161,0.6);
+	z-index: 11;
+	top:50%;
+	transform: translate(0%,-50%);
+	
+
+}
+
+
+.testimonial-display-widget
+{
+	display: block;
+	position: relative;
+	width: 300px;
+	left:50%;
+	transform:translate(-50%,0%);
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+
+}
+.testimonial-header
+{
+	color: rgb(21,100,161);
+	font-weight: bold;
+	margin-bottom: 50px
+}
+
+.testimonial-footer
+{
+	margin-top: 20px;
+	color: rgb(21,100,161);	
+	font-weight: bold;
+}
+
+#testimonial-prev-button
+{
+	display: inline-block;
+	position: absolute;
+	font-size:65px;
+	left:-15%;
+	top:42%;
+}
+
+
+#testimonial-next-button
+{
+	display: inline-block;
+	position: absolute;
+	font-size:65px;
+	left:109%;
+	top:42%;
+}
+
+
+
+.footer-homepage
+{
+	display: block;
+	position: relative;
+	background-image: url('../imgs/footer.jpg');
+	width: 100%;
+	height: 300px;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+
+}
+
+.footer-links
+{
+	display: block;
+	position: relative;
+	left:5%;
+	bottom: -70%;
+}
+.footer-links a
+{
+	display: inline-block;
+	position: relative;
+	
+	color:white;
+
+}
+.footer-links a:hover
+{
+	color: #c0c0c0;
+}
+
+.footer-text
+{
+	color:white;	
+	font-weight: bold;
+	margin-top:10px;
+}
+.social-links
+{
+	display: inline-block;
+	position: relative;
+	width: 100vw;
+	text-align: left;
+	left:10px;
+	bottom: 230px;
+	color:white;
+	font-weight: bold;
+	
+}
+
+
+
+
+}
+
 
 /*common css styles*/
 .slider-header-title-box
