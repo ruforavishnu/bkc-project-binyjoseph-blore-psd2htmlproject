@@ -30,7 +30,7 @@
 				<img class="main-logo" src="imgs/main_logo.png" alt="">
 			</a>
 			<nav class="main-menu-nav " id="homepage-nav">
-				<ul class="main-menu-list">
+				<ul class="main-menu-list ">
 					<a href="index.html"><li class="menu-item" id="homepage-menu-item">Home</li></a>
 					<a href="about-us.html"><li class="menu-item">About us</li></a>
 					<a href="services.html"><li class="menu-item">Services</li></a>
@@ -39,13 +39,22 @@
 					<a href="contact-us.html"><li class="menu-item">Contact Us</li></a>
 				</ul>
 			</nav>
-			<!--<nav class="collapsed-navbar">
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			</nav>-->
+			<nav  id="hamburger-menu-nav">
+				<a href="javascript:void(0);" class="icon" onclick="hamburgerMenuClicked()">
+					<i class="fa fa-bars fa-3x"></i>
+				</a>
+
+
+			</nav>
+			<ul class="responsive-menu" id="hamburger-menu-opened">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="resource-link.html">Resource Link</a></li>
+				<li><a href="testimonials.html">Testimonials</a></li>
+				<li><a href="contact-us.html">Contact Us</a></li>
+			</ul>
+			
 	</div>
 
 
@@ -175,16 +184,25 @@
  <script src="js/jquery.flexslider-min.js"></script>
  
 <script>
-$(document).ready(function () 
+function hamburgerMenuClicked() 
 {
-    $('.flexslider').flexslider({
-        animation: 'fade',
-        controlsContainer: '.flexslider'
-    });
+	
+    var x = document.getElementById("hamburger-menu-opened");
 
+    var disp= $("#hamburger-menu-opened").css("display");
     
-    
-});
+    console.log('hamburger clicked, display :'+disp);
+
+    if(disp=== "block")
+    {
+		$("#hamburger-menu-opened").css("display", "none");    	
+    }
+    else
+    {
+    	$("#hamburger-menu-opened").css("display", "block");    		
+    }
+
+}
 </script>
 
  <script src="js/wow.min.js"></script>

@@ -19,6 +19,8 @@ var $imageHeadingsArray = [
 ];
 
 
+
+
 function runSlideShow()
 {
 	console.log('run slideshow invoked');

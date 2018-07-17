@@ -4,6 +4,11 @@
 @media only screen and (min-width: 1200px)
 {
 
+#hamburger-menu-nav
+{
+	display: none;
+}
+
 a
 {
 	color: black;
@@ -928,6 +933,12 @@ margin: 0px 0px;
 @media only screen and (min-width: 960px) and (max-width: 1199px)
 {
 
+#hamburger-menu-nav
+{
+	display: none;
+}
+
+
 a
 {
 	color: black;
@@ -1662,6 +1673,21 @@ body
 
 @media only screen and (min-width: 700px) and (max-width: 959px)
 {
+
+.hamburger-menu-nav
+{
+	display: block;
+	
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+	height: 50px;		
+	position: relative;
+	left: 10px;
+	bottom: 4px;
+}
+
+
 a
 {
 	color: black;
@@ -1746,14 +1772,16 @@ body
 	
 }
 
-
-
-
 .main-menu-nav
 {
-
 	display: none;
 }
+
+.hamburger-menu-nav
+{
+	display: block;
+}
+
 
 
 #homepage-section2
@@ -2215,7 +2243,23 @@ body
 
 @media only screen and (min-width: 300px) and (max-width: 699px)
 {
-	a
+
+
+.hamburger-menu-nav
+{
+	display: block;
+	
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+	height: 50px;		
+	position: relative;
+	left: 10px;
+	bottom: 4px;
+}
+
+
+a
 {
 	color: black;
 
@@ -2454,7 +2498,6 @@ body
 
 
 
-
 }
 
 
@@ -2489,3 +2532,48 @@ body
 	
 }
 /*end of common css styles*/
+
+
+
+
+
+@media only screen and (max-width: 959px)
+{
+	.main-menu-nav
+	{
+		display: none;
+	}
+
+	.responsive-menu
+	{
+		background-color: 	#c0c0c0;
+		list-style: none;
+		padding: 0px 0px;
+		padding-top: 10px;
+		margin:0;
+		vertical-align: middle;
+
+		
+	}
+	.responsive-menu li
+	{
+		border-bottom: 1px solid black;
+		height: 30px;
+
+	}
+	.responsive-menu li a
+	{
+		color:black;
+		text-decoration: underline;
+		padding-left: 5px;
+
+	}
+
+}
+
+
+
+
+
+
+
