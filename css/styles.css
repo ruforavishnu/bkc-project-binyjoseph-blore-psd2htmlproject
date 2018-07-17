@@ -8,6 +8,11 @@
 {
 	display: none;
 }
+#hamburger-menu-opened
+{
+	display: none;	
+}
+
 
 a
 {
@@ -800,7 +805,7 @@ body
 }
 
 
-#services-nav #services-menu-item
+#services-nav, #services-menu-item
 {
 	width:130px;
 	height:49px;
@@ -936,6 +941,11 @@ margin: 0px 0px;
 #hamburger-menu-nav
 {
 	display: none;
+}
+
+#hamburger-menu-opened
+{
+	display: none;	
 }
 
 
@@ -2542,6 +2552,10 @@ body
 	.main-menu-nav
 	{
 		display: none;
+	}
+	#hamburger-menu-opened
+	{
+		display: none;	
 	}
 
 	.responsive-menu
